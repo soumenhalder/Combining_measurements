@@ -12,10 +12,10 @@ Combining measurements is an essential tool for experimental physicist. Things g
 
 Suppose we have,
 * $n$ experimental results, denoted as $y_{i}$ = { $y_{1}$, $y_{2}$, $y_{3}$ ...  $y_{n}$ }
-* Covariance matrix of the measurements $M_{ij} =$ cov( $y_{i}$,$y_{j}$ ) is a $n\times n$ matrix
-* $N$ observables, $X_{\alpha}$ = {$X_{1}$,$X_{2}$, $X_{3}$ ... $X_{N}$}
+* Covariance matrix of the measurements $M_{ij} =$ cov( $y_{i}$, $y_{j}$ ) is a $n\times n$ matrix
+* $N$ observables, $X_{\alpha}$ = { $X_{1}$, $X_{2}$, $X_{3}$ ... $X_{N}$ }
 
-So it's obvious $n = \sum^{N}_{\alpha=1} n_{\alpha} \geq N$
+So it's obvious $n =\sum^{N}_{\alpha=1}n_{\alpha}\geq N$
 
 * The link between measurement $y_{i}$ and the observables $X_{\alpha}$ is denoted by a $n \times N$ matrix,
 
