@@ -30,13 +30,12 @@ $
 # The desired outputs
 
 * **Observable Estimation:** $\hat{x}_{\alpha}$ $=\lambda_{\alpha i} y_{i}$ as estimation of the observable $X_{\alpha}$
-* **Covariance matrix of measured observables:**  as cov($\hat{x}_{\alpha}$,$\hat{x}_{\beta}$) = $\lambda_{\alpha i} M_{ij} \lambda_{\beta j} $ = $(\lambda M \lambda^{T})_{\alpha \beta}$ 
+* **Covariance matrix of measured observables:**  as cov($\hat{x}_{\alpha}$, $\hat{x}_{\beta}$) = $\lambda_{\alpha i} M_{ij} \lambda_{\beta j} $ = $(\lambda M \lambda^{T})_{\alpha \beta}$ 
 
 ------------ -----------
-* The ref. says $\lambda= (U^{T} M^{-1} U)^{-1} (U^{T} M^{-1})$ , or in index notation $\lambda_{\alpha i} =           \sum^{N}_{\beta = 1} (U^{T} M^{-1} U)_{\alpha \beta}^{-1} (U^{T} M^{-1})_{\beta i}$.
-
+* The ref. says $\lambda= (U^{T} M^{-1} U)^{-1} (U^{T} M^{-1})$ , or in index notation $\lambda_{\alpha i} = \sum^{N}_{\beta = 1} (U^{T} M^{-1} U)_{\alpha \beta}^{-1} (U^{T} M^{-1})_{\beta i}$.
 * Puting that in covariance matrix expression we get, 
-  cov($\hat{x}_{\alpha}$,$\hat{x}_{\beta}$)= $(U^{T} M^{-1} U)_{\alpha \beta}^{-1}$
+  $\text{cov}(\hat{x}_{\alpha}, \hat{x}_{\beta})= (U^{T} M^{-1} U)_{\alpha \beta}^{-1}$
 
 -------------------------
 
